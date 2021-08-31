@@ -21,13 +21,19 @@ clearButton.addEventListener("click",clear);
 
 
 function clear(){
-   //todoList.innerHTML="";
+
+
+    if(confirm("emin misin ")){
+
+         //todoList.innerHTML="";
    while(todoList.firstElementChild != null){
        todoList.removeChild(todoList.firstElementChild);
    }
 
    localStorage.removeItem("todos");
 
+    }
+  
 }
 
 
