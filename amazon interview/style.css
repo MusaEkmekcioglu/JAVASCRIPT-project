@@ -1,0 +1,13 @@
+* {
+  margin-top: 1%;
+}
+.btn {
+  width: 11%;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
